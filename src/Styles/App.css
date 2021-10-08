@@ -1,0 +1,59 @@
+.calContainer {
+  border: 1px solid black;
+  padding: 15px;
+  max-width: 265px;
+  border-radius: 30px;
+  position: absolute;
+  top: 20%;
+  left: 41%;
+  background-color: black;
+}
+
+.header {
+  text-align: center;
+}
+
+.display {
+  border: 1px solid black;
+  width: 245px;
+  border-radius: 5px;
+  margin: 2.5px;
+  padding: 5px;
+  background-color: rgb(49, 51, 51);
+  color: white;
+  border: none;
+  min-height: 70px;
+  max-height: 70px;
+  overflow: auto;
+}
+
+.btn_ops {
+  background-color: rgb(23, 197, 197);
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  min-width: 60px;
+  min-height: 50px;
+  margin: 2.5px;
+  font-weight: bold;
+}
+
+.btn_num {
+  background-color: rgb(49, 51, 51);
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  min-width: 60px;
+  min-height: 50px;
+  margin: 2.5px;
+  color: white;
+  font-weight: bold;
+}
+
+.special {
+  min-width: 60px;
+}
+
+h4 {
+  font-family: source;
+}
