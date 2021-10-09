@@ -54,8 +54,14 @@ class Display extends Component{
             }
 
             console.log(str_clip.length);
-            let sol=eval(str_clip);
-            this.setState({cal_str:sol});
+            try{
+                let sol=eval(str_clip);
+                this.setState({cal_str:sol});
+            }
+            catch(err){
+                this.setState({cal_str:"syntax error"});
+            }
+            
         }else{
             this.setState({cal_str:str});
         }
